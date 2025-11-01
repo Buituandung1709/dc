@@ -12,6 +12,6 @@
 # TRẠNG THÁI ANDROID:
 🟣 DeltaVN Android: https://www.mediafire.com/file/uzm64okxmbphebn/Delta+Vng+V2.695.955_Up.apk/file?dkey=sz1jqakwopd&r=1266
 
-🟣 KrnlVN Android: https://krnl.filenetwork.vip/file/krnl_vng_release_2.695.955_2025.10.25_30.apk
+🟣 KrnlVN Android: https://krnl.filenetwork.vip/file/krnl_vng_release_2.696.799_2025.11.1_31.apk.25_30.apk
 # TRẠNG THÁI PC:
 🟢 Volcano: https://volcano.wtf
