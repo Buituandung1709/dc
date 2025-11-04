@@ -15,3 +15,7 @@
 🟣 KrnlVN Android v696: https://krnl.filenetwork.vip/file/krnl_vng_release_2.696.799_2025.11.1_31.apk.25_30.apk
 # TRẠNG THÁI PC:
 🟢 Volcano  v697: https://volcano.wtf
+# TRẠNG THÁI BYPASS (🟢 OK, 🟡 KHÔNG ỔN ĐỊNH, 🔴 BỊ VÁ)
+🟡 Lootlabs
+🔴 Linkvertise
+🔴 Workink
