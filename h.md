@@ -18,6 +18,6 @@
 # TRẠNG THÁI BYPASS (🟢 OK, 🟡 KHÔNG ỔN ĐỊNH, 🔴 BỊ VÁ):
 🟡 Lootlabs
 
-🔴 Linkvertise
+🟢 Linkvertise
 
-🔴 Workink
+🟢 Workink
