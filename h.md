@@ -10,7 +10,7 @@
 🟣 KRNL iOS: https://www.ngocbonggaming.com/2025/05/getlink.html?link=https://nhapcode1s.com/install/krnllite
 ### DNS V6 iOS: https://www.mediafire.com/file/wy2edhssr1xjk7o/DNS_V6.mobileconfig/file
 # TRẠNG THÁI ANDROID:
-🟣 DeltaVN Android: https://www.mediafire.com/file/uzm64okxmbphebn/Delta+Vng+V2.695.955_Up.apk/file?dkey=sz1jqakwopd&r=1266
+🟣 DeltaVN Android: https://huggingface.co/buituandung1567/abcsto/resolve/main/delta-vng-v2696799-up.apk?download=true
 
 🟣 KrnlVN Android: https://krnl.filenetwork.vip/file/krnl_vng_release_2.696.799_2025.11.1_31.apk.25_30.apk
 # TRẠNG THÁI PC:
