@@ -5,9 +5,9 @@
 
 🔴: Auto bị ban
 # TRẠNG THÁI iOS
-🟣 DeltaVN iOS v697: https://www.ngocbonggaming.com/2025/05/getlink.html?link=https://nhapcode1s.com/install/deltalite
+🟣 DeltaVN iOS v697: https://www.mediafire.com/file/bqvzrrjf60bt0at/DeltaVN+V39+HuyMythic.ipa/file
 
-🟣 KRNL iOS v697: https://www.ngocbonggaming.com/2025/05/getlink.html?link=https://nhapcode1s.com/install/krnllite
+🔴 KRNL iOS v697: Đang update...
 ### DNS V6 iOS: https://www.mediafire.com/file/wy2edhssr1xjk7o/DNS_V6.mobileconfig/file
 # TRẠNG THÁI ANDROID:
 🟣 DeltaVN Android v696: https://huggingface.co/buituandung1567/abcsto/resolve/main/delta-vng-v2696799-up.apk?download=true
