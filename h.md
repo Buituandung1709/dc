@@ -3,7 +3,7 @@
 
 🟢: Vượt qua rào cản nhưng vẫn có thể bị quét
 
-🔴: Auto bị ban
+🔴: Auto bị ban/Chưa có update
 # TRẠNG THÁI iOS
 🟣 DeltaVN iOS v697: https://www.mediafire.com/file/bqvzrrjf60bt0at/DeltaVN+V39+HuyMythic.ipa/file
 
