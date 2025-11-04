@@ -5,13 +5,13 @@
 
 🔴: Auto bị ban
 # TRẠNG THÁI iOS
-🟣 DeltaVN iOS: https://www.ngocbonggaming.com/2025/05/getlink.html?link=https://nhapcode1s.com/install/deltalite
+🟣 DeltaVN iOS v697: https://www.ngocbonggaming.com/2025/05/getlink.html?link=https://nhapcode1s.com/install/deltalite
 
-🟣 KRNL iOS: https://www.ngocbonggaming.com/2025/05/getlink.html?link=https://nhapcode1s.com/install/krnllite
+🟣 KRNL iOS v697: https://www.ngocbonggaming.com/2025/05/getlink.html?link=https://nhapcode1s.com/install/krnllite
 ### DNS V6 iOS: https://www.mediafire.com/file/wy2edhssr1xjk7o/DNS_V6.mobileconfig/file
 # TRẠNG THÁI ANDROID:
-🟣 DeltaVN Android: https://huggingface.co/buituandung1567/abcsto/resolve/main/delta-vng-v2696799-up.apk?download=true
+🟣 DeltaVN Android v696: https://huggingface.co/buituandung1567/abcsto/resolve/main/delta-vng-v2696799-up.apk?download=true
 
-🟣 KrnlVN Android: https://krnl.filenetwork.vip/file/krnl_vng_release_2.696.799_2025.11.1_31.apk.25_30.apk
+🟣 KrnlVN Android v696: https://krnl.filenetwork.vip/file/krnl_vng_release_2.696.799_2025.11.1_31.apk.25_30.apk
 # TRẠNG THÁI PC:
-🟢 Volcano: https://volcano.wtf
+🟢 Volcano  v697: https://volcano.wtf
