@@ -9,13 +9,13 @@
 
 🔴 KrnlVN iOS v697: Đang update...
 ### DNS V6 iOS: https://www.mediafire.com/file/wy2edhssr1xjk7o/DNS_V6.mobileconfig/file
-# TRẠNG THÁI ANDROID:
-🟣 DeltaVN Android v696: https://huggingface.co/buituandung1567/abcsto/resolve/main/delta-vng-v2696799-up.apk?download=true
+# TRẠNG THÁI ANDROID
+🟣 DeltaVN Android v697: https://huggingface.co/buituandung1567/abcsto/resolve/main/delta-vng-v2697926-up.apk
 
-🟣 KrnlVN Android v696: https://krnl.filenetwork.vip/file/krnl_vng_release_2.696.799_2025.11.1_31.apk.25_30.apk
-# TRẠNG THÁI PC:
-🟢 Volcano  v697: https://volcano.wtf
-# TRẠNG THÁI BYPASS (🟢 OK, 🟡 KHÔNG ỔN ĐỊNH, 🔴 BỊ VÁ):
+🔴 KrnlVN Android v697: Đang update...
+# TRẠNG THÁI PC
+🔴 Volcano  v698: Đang update...
+# TRẠNG THÁI BYPASS (🟢 OK, 🟡 KHÔNG ỔN ĐỊNH, 🔴 BỊ VÁ)
 🟡 Lootlabs
 
 🟢 Linkvertise
