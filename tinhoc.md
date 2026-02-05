@@ -1,76 +1,109 @@
-### THỰC HÀNH Nhiệm vụ 1C và 1D (SGK-95)
-**1C**:
+### NHIỆM VỤ 1:
 ```python
-x=2
-y=5
-print((x+y)*(x**2+y**2-1))
+def Select(A,x):
+    B = []
+    for k in range(len(A)):
+        if float(A[k]) >= x:
+            B.append(A[k])
+    return B
+a=input('Nhập các số bất kì cách nhau bởi dấu cách: ')
+A=a.split(' ')
+b=float(input('Nhập số bất kì: '))
+B=Select(A,b)
+print('Các phần tử trong danh sách lớn hơn', b, 'là:', ' '.join(B))
 ```
-**1D**:
+### NHIỆM VỤ 2:
 ```python
-a,b,c=2,3,4
-print((a+b+c)*(a+b-c))
+def Tach_tu(Str, c):
+    A = Str.split()
+    for k in range(len(A)):
+        if c == 0:
+            A[k] = A[k].upper()
+        if c == 1:
+            A[k] = A[k].lower()
+        if c == 2:
+            A[k] = A[k].title()
+    return A
+a=input('Nhập kí tự bất kì: ')
+b=int(input("""Chọn phương thức chuyển đổi kí tự:
+[0]: Chuyển thành chữ in hoa
+[1]: Chuyển thành chữ in thường
+[2]: Chuyển thành in hoa kí tự đầu còn lại in thường
+Nhập phương thức vào đây [0-2]: """))
+B=Tach_tu(a, b)
+print('Kí tự được chuyển đổi là: ', ' '.join(B))
 ```
-### THỰC HÀNH Nhiệm vụ 2 (SGK-96)
+### LUYỆN TẬP 2:
 ```python
-R=float(input('Nhập bán kính hình tròn:'))
-pi=3.14
-print('Chu vi hình tròn là:',2*R*pi)
-print('Diện tích hình tròn là:',pi*R*R)
+def Tach_day(a):
+    B=[]
+    C=[]
+    A=a.split(' ')
+    for i in range(len(A)):
+        if int(A[i]) % 2 == 0:
+            B.append(A[i])
+        else:
+            C.append(A[i])
+    return B, C
+a=input('Nhập các số nguyên bất kì cách nhau bởi dấu cách: ')
+B, C = Tach_day(a)
+print('Danh sách các số chẵn là:', ' '.join(B))
+print('Danh sách các số lẻ là:', ' '.join(C))
 ```
-Giải thích:
-1. **`R = float(input('Nhập bán kính hình tròn: '))`** — Nhập bán kính từ bàn phím và chuyển sang dạng số thực.
-2. **`pi = 3.14`** — Gán giá trị 3.14 cho hằng số π.
-3. **`print('Chu vi hình tròn là:', 2 * R * pi)`** — Tính và in chu vi ( C = 2πR ).
-4. **`print('Diện tích hình tròn là:', pi * R * R)`** — Tính và in diện tích ( S = πR² ).
-### VẬN DỤNG 2 (SG1-96)
+### VẬN DỤNG 1:
 ```python
-ss=684500
-ngay=ss//86400
-gio=ss%86400//3600
-phut=ss%86400%3600//60
-giay=ss%86400%3600%60
-print(ngay,'ngày',gio,'giờ',phut,'phút',giay,'giây')
+def UCLN(m, n):
+    while m != n:
+        if m < n:
+            n = n - m
+        else:
+            m = m - n
+    return m
+a=int(input('Nhập số nguyên thứ nhất bất kì: '))
+b=int(input('Nhập số nguyên thứ hai bất kì: '))
+ucln=UCLN(a, b)
+bcnn=(a*b)/ucln
+print('ƯCLN và BCNN của 2 số tương ứng là:', ucln, 'và', bcnn)
 ```
-Giải thích:
-1. **`ss = 684500`** — Gán tổng số giây là **684 500**.
-2. **`ngay = ss // 86400`** — Lấy phần nguyên khi chia cho 86 400 (số giây trong 1 ngày) để tính số **ngày**.
-3. **`gio = ss % 86400 // 3600`** — Lấy phần dư sau khi trừ ngày, rồi chia cho 3 600 (giây trong 1 giờ) để tính **giờ**.
-4. **`phut = ss % 86400 % 3600 // 60`** — Lấy phần dư còn lại, chia cho 60 để tính **phút**.
-5. **`giay = ss % 86400 % 3600 % 60`** — Lấy phần dư cuối cùng để tính **giây**.
-6. **`print(ngay, 'ngày', gio, 'giờ', phut, 'phút', giay, 'giây')`** — In kết quả ra màn hình ở dạng dễ đọc.
-### VẬN DỤNG 1 (SGK-100)
+### VẬN DỤNG 2:
 ```python
-ss=int(input('Nhập số giây:'))
-ngay=ss//86400
-gio=ss%86400//3600
-phut=ss%86400%3600//60
-giay=ss%86400%3600%60
-print(ngay,'ngày',gio,'giờ',phut,'phút',giay,'giây')
+def namnhuan(d, m, y):
+    a='Ngày hợp lệ'
+    if m in [1, 3, 5, 7, 8, 10, 12]:
+        if d < 1 or d > 31:
+            a='Ngày không hợp lệ'
+    elif m == 2:
+        if d < 1 or d > 29:
+            a='Ngày không hợp lệ'
+    elif m in [4, 6, 9, 11]:
+        if d < 1 or d > 30:
+            a='Ngày không hợp lệ'
+    else:
+        a='Tháng không hợp lệ'
+    return a
+def namkhongnhuan(d, m, y):
+    a='Ngày hợp lệ'
+    if m in [1, 3, 5, 7, 8, 10, 12]:
+        if d < 1 or d > 31:
+            a='Ngày không hợp lệ'
+    elif m == 2:
+        if d < 1 or d > 28:
+            a='Ngày không hợp lệ'
+    elif m in [4, 6, 9, 11]:
+        if d < 1 or d > 30:
+            a='Ngày không hợp lệ'
+    else:
+        a='Tháng không hợp lệ'
+    return a
+a=input('Nhập ngày, tháng, năm cách nhau bởi dấu cách: ')
+A=a.split(' ')
+day=int(A[0])
+month=int(A[1])
+year=int(A[2])
+if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
+    kq=namnhuan(day, month, year)
+    print(kq)
+else:
+    kq=namkhongnhuan(day, month, year)
+    print(kq)
 ```
-Giải thích:
-1. **`ss = int(input('Nhập số giây:'))`** — Nhập tổng số giây từ bàn phím và đổi sang kiểu **số nguyên**.
-2. **`ngay = ss // 86400`** — Chia lấy phần nguyên cho 86 400 để tính **số ngày**.
-3. **`gio = ss % 86400 // 3600`** — Lấy phần dư sau khi trừ đi số ngày, rồi chia cho 3 600 để tính **số giờ**.
-4. **`phut = ss % 86400 % 3600 // 60`** — Lấy phần dư còn lại, chia cho 60 để tính **số phút**.
-5. **`giay = ss % 86400 % 3600 % 60`** — Lấy phần dư cuối cùng để tính **số giây**.
-6. **`print(ngay, 'ngày', gio, 'giờ', phut, 'phút', giay, 'giây')`** — In ra thời gian được tách thành ngày, giờ, phút, giây.
-### VẬN DỤNG 2 (SGK-100)
-```python
-a=float(input('Nhập cạnh a:'))
-b=float(input('Nhập cạnh b:'))
-c=float(input('Nhập cạnh c:'))
-chuvi=a+b+c
-p=chuvi/2
-s=(p*(p-a)*(p-b)*(p-c))**(1/2)
-print("Chu vi tam giác là:",chuvi)
-print("Diện tích tam giác là:",s)
-```
-Giải thích:
-1. **`a = float(input('Nhập cạnh a:'))`** — Nhập độ dài cạnh a và chuyển thành số thực.
-2. **`b = float(input('Nhập cạnh b:'))`** — Nhập độ dài cạnh b và chuyển thành số thực.
-3. **`c = float(input('Nhập cạnh c:'))`** — Nhập độ dài cạnh c và chuyển thành số thực.
-4. **`chuvi = a + b + c`** — Tính **chu vi** tam giác bằng tổng ba cạnh.
-5. **`p = chuvi / 2`** — Tính **nửa chu vi** (ký hiệu p) để chuẩn bị áp dụng công thức Heron.
-6. **`s = (p * (p - a) * (p - b) * (p - c)) ** (1/2)`** — Áp dụng **công thức Heron** để tính **diện tích** tam giác.
-7. **`print("Chu vi tam giác là:", chuvi)`** — In ra chu vi.
-8. **`print("Diện tích tam giác là:", s)`** — In ra diện tích.
